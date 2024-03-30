@@ -1,0 +1,46 @@
+.button-icon {
+    display: flex;
+    border: 3px #fff solid;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    margin: 25px;
+}
+
+.icon-button {background-color: #fff;padding: 10px 10px 5px 10px;}
+.icon-button svg {width: 30px;height: 30px;}
+.cube {transition: all 0.4s;transform-style: preserve-3d;width: 200px;height: 20px;}
+.button-icon:hover {border-color: #ff98a2;}
+.button-icon:hover .cube {transform: rotateX(90deg);}
+.side {
+  position: absolute;
+  height: 47px;
+  width: 200px;
+  display: flex;
+  font-size: 0.8em;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.top {background: #ff98a2;color: #fff;transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);}
+.front {background: #222229;color: #fff;transform: translate3d(0, 0, 1em);}
+.container h1{font-size: 25px;font-family: 'Times New Roman', Times, serif;font-weight: bold;}
+.color-bg1 {background: blue;}
+.color-bg1-1 {background: lightblue;}
+.button-icon-color1:hover {border-color: lightblue;}
+.color-bg2 {background: rgb(60,154,238);background: linear-gradient(59deg, rgba(60,154,238,1) 25%, rgba(2,166,205,1) 56%, rgba(187,247,238,1) 100%);}
+.color-bg2-2 {background: darkblue;}
+.button-icon-color2:hover {border-color: lightblue;}
+.color-bg3 {background: rgb(131,58,180);background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);}
+.color-bg3-3 {background: rgb(63,94,251);background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);}
+.button-icon-color3:hover {border-color: lightblue;}
+.wall-xdxd{border-left: 5px solid lightblue; height: 250px;}
+footer .container p{font-size: 15px;}
+.logo{display: flex;justify-content: center;align-self: center;}
+.copyrighting{text-align: center;}
+.copyrighting p{padding: 10px;}
+section img{position: absolute;}
+* a{text-decoration: none;}
+.text h1{font-size: 18px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
